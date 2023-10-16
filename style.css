@@ -1,0 +1,25 @@
+.navbar {
+  width: 80%;
+  height: 4rem;
+  margin-top: 25px;
+  position: absolute;
+  z-index: 300;
+}
+
+.navbar-link {
+  font-size: 1.4rem;
+  font-weight: 600;
+  color: #d30caf;
+  margin: 0 3rem;
+  letter-spacing: 0.2rem;
+  text-transform: uppercase;
+  position: relative;
+  transition: color 0.4s;
+  text-decoration: none;
+}
+
+.navbar-link:hover {
+    background-color: black;
+    color: white;
+    border-radius: 15px;
+}

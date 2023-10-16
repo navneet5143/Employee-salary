@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Login</title>
+    <style>
+    .centered {
+    text-align: center;
+    margin-top: 200px;
+    width: 400px;
+    height: 300px;
+    border: 3px solid rgb(224, 87, 87);
+    background-color: rgb(220, 131, 228);
+    border-radius: 15px;
+  }
+  body {
+    display: flex;
+    justify-content: center;
+  }
+    </style>
+</head>
+<body>
+    
+    <form action="/login" method="POST" class="centered">
+        <h1>Login</h1>
+        <label for="username">Username:</label>
+        <input type="text" id="username" name="username" required><br><br>
+        
+        <label for="password">Password:</label>
+        <input type="password" id="password" name="password" required><br><br>
+        <input type="submit" value="login">
+    </form>
+</body>
+</html>
